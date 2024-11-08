@@ -40,7 +40,7 @@ function checkwin() {
         }
     }
 
-    if ((bord[0] && bord[0] === bord[4] && bord[0] === bord[8] || bord[2]) && (bord[2] === bord[4] && bord[2] === bord[6])) {
+    if ((bord[0] && bord[0] === bord[4] && bord[0] === bord[8]) || (bord[2]) && (bord[2] === bord[4] && bord[2] === bord[6])) {
         return true;
     }
 
